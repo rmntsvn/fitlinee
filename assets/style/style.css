@@ -1,0 +1,1700 @@
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-Regular.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Manrope';
+    src: url(../fonts/Manrope-SemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Manrope' sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+
+}
+html{
+    background: rgb(240,243,245);
+    background: linear-gradient(90deg, rgba(240,243,245,1) 0%, rgba(230,235,240,1) 100%);
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .container .raz h1{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 800;
+}
+.header .container .raz h1{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 800;
+}
+.header .container .raz{
+    display: flex;
+    flex-direction: row;
+}
+
+.header .container .icons .fa-magnifying-glass{
+    color: black;
+    width: 17px;
+    height: 16px;
+}
+.header .container .icons .fa-cart-shopping{
+    color: black;
+    width: 17px;
+    height: 16px;
+}
+.header .container .icons .fa-house{
+    color: black;
+    width: 17px;
+    height: 16px;
+}
+
+.header .container .icons{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+}  
+.header .container{
+    height: 60px;
+    margin-bottom: 120px;
+}
+.kurs .container{
+    display: flex;
+}
+.kurs .container .fit h1{
+    font-family:'Manrope';
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 35px;
+}
+
+.kurs .container .fit h2{
+    font-family:'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 60px;
+   
+}
+.kurs .container button{
+    width: 250px;
+    height: 60px;
+    color: black;
+    border: 1px solid #3586ff;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 9px;
+    background-color: #3586ff;
+    color: white;
+    margin-top: 60px;
+}
+
+.kurs .container button:hover{
+    border: 2px solid #3586ff; /* Параметры рамки */
+    padding: 5px 20px;
+}
+.kurs .container .woman{
+    width: 612px;
+    height: 500px;
+    background: url(../img/1.png);
+    background-size: cover;
+    background-position: center;
+}
+.choicing{
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.choicing .container{
+    display: flex;
+    flex-direction: column;
+}
+.choicing .container h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+   text-align: center;
+}
+.choicing .container .kurs{
+    display: flex;
+    margin-top: 85px;
+    justify-content: space-between;
+}
+.choicing .container .kurs .one{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.choicing .container .kurs .one .yo{
+    background: url(../img/2.png);
+    width: 186px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.choicing .container .kurs .one h2{
+    font-family: 'Manrope';
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.choicing .container .kurs .two{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.choicing .container .kurs .two .ras{
+    background: url(../img/3.png);
+    width: 238px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.choicing .container .kurs .two h2{
+    font-family: 'Manrope';
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.choicing .container .kurs .tree{
+    width: 360px;
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.choicing .container .kurs .tree .hit{
+    background: url(../img/4.png);
+    width: 186px;
+    height: 238px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.choicing .container .kurs .tree h2{
+    font-family: 'Manrope';
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.choicing .container .btn button{
+    width: 250px;
+    height: 60px;
+    color: black;
+    border: 1px solid #3586ff;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 9px;
+    background-color: #3586ff;
+    color: white;
+    margin-top: 75px;
+}
+.choicing .container .btn button:hover{
+    border: 2px solid #3586ff; /* Параметры рамки */
+    padding: 5px 20px;
+}
+.choicing .container .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.poprob .container .try{
+    width: 100%;
+    height: 492px;
+    border-radius: 20px;
+    background: url(../img/5.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.poprob .container .try .text{
+    padding-left: 100px;
+    padding-top: 155px;
+}
+
+.poprob .container .try .text h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.poprob .container .try .text h3{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+.poprob .container .try .text button{
+    width: 250px;
+    height: 60px;
+    color: black;
+    border: 1px solid #3586ff;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 9px;
+    background-color: #3586ff;
+    color: white;
+}
+.poprob .container .try .text button:hover{
+    border: 2px solid #3586ff; /* Параметры рамки */
+    padding: 5px 20px;
+}
+.onl{
+    margin-top: 160px;
+}
+.onl .container{
+    display: flex;
+    flex-direction: column;
+}
+.onl .container .block1{
+    display: flex;
+    justify-content: space-between;
+}
+.onl .container .block1 .woman{
+    width: 560px;
+    height: 344px;
+    border-radius: 15px;
+    background: url(../img/6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.onl .container .block1 .tk{
+    display: flex;
+    flex-direction: column;
+}
+.onl .container .block1 .tk .onkr{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.onl .container .block1 .tk .ras{
+    font-family: "Manrope";
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.onl .container .block1 .tk .classic{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.onl .container .block1 .tk .dat{
+    display: flex;
+    justify-content: space-between;
+}
+.onl .container .block1 .tk .dat .high{
+    display: flex;
+    width: 260px;
+    height: 56px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.onl .container .block1 .tk .dat .high h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.onl .container .block1 .tk .dat .high .star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.onl .container .block1 .tk .dat .high .star i{
+    height: 16px;
+    width: 16px;
+}
+.onl .container .block1 .tk .dat .high .star h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.onl .container .block1 .tk .dat .date{
+    display: flex;
+    width: 260px;
+    height: 56px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-around;
+}
+.onl .container .block1 .tk .dat .date .week{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.onl .container .block1 .tk .dat .date .week i{
+    width: 16px; 
+    height: 16px;
+}
+.onl .container .block1 .tk .dat .date .week h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.onl .container .block1 .tk .dat .date .trening{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.onl .container .block1 .tk .dat .date .trening i{
+    width: 16px; 
+    height: 16px;
+}
+.onl .container .block1 .tk .dat .date .trening h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+.onl .container .block1 .tk .cos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 38px;
+    align-items: center;
+}
+.onl .container .block1 .tk .cos h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.onl .container .block1 .tk .cos button{
+    width: 250px;
+    height: 60px;
+    color: black;
+    border: 1px solid #3586ff;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 9px;
+    background-color: #3586ff;
+    color: white;
+}
+.onl .container .block1 .tk .cos button:hover{
+    border: 2px solid #3586ff; /* Параметры рамки */
+    padding: 5px 20px;
+}
+
+.onl .container .block2 .infofit .perecluch{
+    width: 100%;
+    overflow: hidden;
+
+}
+.onl .container .block2 .infofit .perecluch .line{
+    width: 300%;
+    display: flex;
+    
+    
+    
+}
+.onl .container .block2 .infofit .perecluch .line .text{
+    width: calc(100%/3);
+    display: flex;
+    justify-content: space-between;
+    transition: 1s;
+    
+}
+.onl .container .block2 .infofit .perecluch .line .text .photo{
+    display: flex;
+    width: calc(100%/1.3);
+    justify-content: space-between;
+    
+}
+
+#input1:checked ~ .perecluch .text{
+    transform: translateX(0);
+    transition: 1s;
+}
+#input2:checked ~ .perecluch .text{
+    transform: translateX(-100%);
+    transition: 1s;
+}
+#input3:checked ~ .perecluch .text{
+    transform: translateX(-200%);
+    transition: 1s;
+}
+#input1:checked ~ .perecluch .text1{
+    opacity: 1;
+    transition: 1s;
+}
+#input2:checked ~ .perecluch .text2{
+    opacity: 1;
+    transition: 1s;
+}
+#input3:checked ~ .perecluch .text3{
+    opacity: 1;
+    transition: 1s;
+}
+#input1:checked ~ #label1,
+#input2:checked ~ #label2,
+#input3:checked ~ #label3{
+    background-color: #3586ff;
+    color: white;
+    transition: .3s;
+}
+.onl .container .block2{
+    margin-top: 60px;
+}
+.onl .container .block2 .infofit input{
+    display: none;
+}
+
+.onl .container .block2 .infofit label{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 9px;
+    transition: .5s;
+    margin-right: 40px;
+}
+
+.onl .container .block2 .infofit .perecluch{
+    margin-top: 40px;
+}
+.onl .container .block2 .infofit .perecluch .line .text h3{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+}
+.onl .container .block2 .infofit .perecluch .line .photo h2{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.onl .container .block2 .infofit .perecluch .line .photo h4{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.onl .container .block2 .infofit .perecluch .line .photo .photos{
+    width: 260px;
+    height: 274px;
+    background-color: white;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.onl .container .block2 .infofit .perecluch .line .photo .photos .frst{
+    background: url(../img/7.png);
+    width: 109px;
+    height: 190px;
+}
+.onl .container .block2 .infofit .perecluch .line .photo .photos .scnd{
+    background: url(../img/8.png);
+    width: 164px;
+    height: 190px;
+}
+.onl .container .block2 .infofit .perecluch .line .photo .photos .thd{
+    background: url(../img/9.png);
+    width: 196px;
+    height: 190px;
+}
+
+.onl .container .block2 .infofit .perecluch .line .text1{
+    opacity: 0;
+    transition: .5s;
+}
+.onl .container .block2 .infofit .perecluch .line .text2{
+    opacity: 0;
+    transition: .5s;
+}
+.onl .container .block2 .infofit .perecluch .line .text3{
+    opacity: 0;
+    transition: .5s;
+}
+.about{
+    background-color: #f1f4f8;
+    margin-top: 155px;
+    padding-top: 150px;
+    padding-bottom: 140px;
+}
+
+.about .container{
+    display: flex;
+    justify-content: space-between;
+}
+.about .container .xtbtn h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.about .container .xtbtn h3{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+}
+.about .container .xtbtn button{
+    width: 250px;
+    height: 60px;
+    color: black;
+    border: 1px solid #3586ff;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 9px;
+    background-color: #3586ff;
+    color: white;
+}
+.about .container .xtbtn button:hover{
+    border: 2px solid #3586ff; /* Параметры рамки */
+    padding: 5px 20px;
+}
+.about .container .abouti{
+    display: flex;
+   
+}
+.about .container .abouti .bout{
+    margin-top: 40px;
+    background: url(../img/10.jpg);
+    width: 560px;
+    height: 402px;
+    border-radius: 25px;
+}
+
+.how{
+    margin-top: 150px;
+}
+.how .container{
+    display: flex;
+    flex-direction: column;
+}
+.how .container h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+.how .container .work{
+    display: flex;
+    justify-content: space-between;
+}
+
+.how .container .work .cart h2{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #3586ff;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 9px;
+    width: 60px;
+    text-align: center;
+}
+.how .container .work .cart h3{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.how .container .work .cart h4{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.pers{
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
+.pers .container{
+    background: rgb(230,235,240);
+    background: linear-gradient(90deg, rgba(230,235,240,1) 0%, rgba(240,243,245,1) 100%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.pers .container h2{
+    font-family: 'Manrope';
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.pers .container h3{
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.pers .container .nametel{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100%/2.2);
+    margin-bottom: 15px;
+}
+.pers .container .nametel h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.pers .container .nametel input{
+    width: 250px;
+    height: 54px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid rgb(216, 216, 216);
+    text-indent: 10px;
+}
+.pers .container .em{
+    width: calc(100%/2.2);
+}
+.pers .container .em h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.pers .container .em input{
+    width: 100%;
+    height: 54px;
+    background: none;
+    border-radius: 9px;
+    border: 1px solid rgb(216, 216, 216);
+    text-indent: 10px;
+}
+.pers .container h3{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    width: calc(100%/2.2);
+    margin-top: 25px;
+}
+.pers .container .ch{
+    display: flex;
+    width: calc(100%/2.2);
+    margin-bottom: 30px;
+    align-items: center;
+}
+.pers .container .ch label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.pers .container .ch input{
+    margin-left: 0;
+    margin-right: 0;
+    height: 15px;
+    width: 15px;
+}
+.pers .container .ch .frst{
+    display: flex;
+    align-items: center;
+}
+
+.pers .container .ch .scnd{
+    display: flex;
+    align-items: center;
+    
+}
+.pers .container .ch .thd{
+    display: flex;
+    align-items: center;
+}
+
+.pers .container .ag{
+    width: calc(100%/2.2);
+}
+.pers .container .ag input{
+    margin-left: 0;
+    height: 15px;
+    width: 15px;
+}
+.pers .container .ag label{
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.pers .container .ag{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.pers .container button{
+    width: 250px;
+    height: 60px;
+    color: black;
+    border: 1px solid #3586ff;
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 9px;
+    background-color: #3586ff;
+    color: white;
+}
+.pers .container button:hover{
+    border: 2px solid #3586ff; /* Параметры рамки */
+    padding: 5px 20px;
+}
+.foot{
+    margin-bottom: 60px;
+}
+.foot .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot .container .prava h3{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 500;
+}
+.foot .container .soc{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100%/9.2);
+    align-items: center;
+}
+.foot .container .pol{
+    font-family: 'Manrope';
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+.foot .container .pol a{
+    color: black;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 992px;
+    }
+    .foot .container{
+        width: 95%;
+    }
+    .pers .container{
+        width: 95%;
+    }
+    .pers .container .nametel{
+        width: calc(100%/1.7);
+    }
+    .pers .container .em{
+        width: calc(100%/1.7) !important;
+    }
+    .pers .container h3{
+        width: calc(100%/1.7) !important;
+    }
+    .pers .container .ch{
+        width: calc(100%/1.7) !important;
+    }
+    .pers .container .ag{
+        width: calc(100%/1.7) !important;
+    }
+    .pers{
+        margin-top: 50px;
+    }
+    .how {
+        margin-top: 50px;
+    }
+    .how .container .work{
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .how .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .container .xtbtn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .container .xtbtn h3{
+        text-align: center;
+    }
+    .about{
+        padding-top: 50px;
+    }
+    .onl .container .block1 .woman{
+        width: 360px;
+    }
+    .onl .container .block1{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .onl .container .block2 .perecluch .line .text .photo .photos{
+        width: 220px;
+    }
+    .onl .container .block2{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .onl .container .block2 .perecluch .line .text h3{
+        width: calc(100%/4);
+        margin-right: 10px;
+    }
+    .poprob .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .poprob .container .try .text{
+        padding-left: 30px;
+    }
+    .choicing .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .choicing{
+        margin-top: 50px;
+    }
+    .choicing .container .kurs{
+        margin-top: 30px;
+    }
+    .choicing .container .kurs .frst,
+    .choicing .container .kurs .scnd,
+    .choicing .container .kurs .thd{
+        width: 300px !important;
+    }
+    .kurs .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .kurs .container .fit h1{
+        margin-top: 0;
+        text-align: center;
+    }
+    .kurs .container .fit h2{
+        text-align: center;
+    }
+    .kurs .container .fit a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .kurs .container .woman{
+        margin-top: 70px;
+    }
+    .header .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header .container .icons{
+        width: calc(100%/7.3);
+    }
+    .header .container .raz h1{
+        margin-right: 40px;
+    }
+    .header .container .raz h1:nth-child(1){
+        margin-left: 25px;
+    }
+    .header .container .raz h1:nth-child(5){
+        margin-right: 0;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .container{
+        width: 766px;
+    }
+    .pers .container .nametel{
+        width: calc(100%/1.3);
+    }
+    .pers .container .em{
+        width: calc(100%/1.3) !important;
+    }
+    .pers .container h3{
+        width: calc(100%/1.3) !important;
+    }
+    .pers .container .ch{
+        width: calc(100%/1.3) !important;
+    }
+    .pers .container .ag{
+        width: calc(100%/1.3) !important;
+    }
+    .how .container .work{
+        width: 70%;
+    }
+    .onl .container .block1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .onl .container .block1 .woman{
+        margin-bottom: 30px;
+        width: 560px;
+    }
+    .onl .container .block2 .infofit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .onl .container .block2 .infofit label{
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text .photo .photos{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .onl .container .block2 .infofit .perecluch .line .text h3{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text .photo{
+        width: 100%;
+    }
+
+    .choicing .container .kurs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .choicing .container .kurs .frst{
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .choicing .container .kurs .scnd{
+        margin-left: 10px;
+    }
+    .header .container .raz a{
+        margin-right: 10px !important;
+    }
+    .header .container .icons{
+        width: calc(100%/6);
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .container{
+        width:  576px;
+    }
+    .foot .container .soc {
+        width: calc(100%/7);
+    }
+    .pers .container{
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    .pers .container h2{
+        text-align: center;
+        line-height: 40px;
+    }
+    .pers .container h3{
+        text-align: center;
+        font-size: 16px;
+    }
+    .pers .container .nametel{
+        width: calc(100%/1.08);
+    }
+    .pers .container .em{
+        width: calc(100%/1.08) !important;  
+    }
+    .pers .container h3{
+        width: calc(100%/1.08) !important;  
+    }
+    .pers .container .ch{
+        width: calc(100%/1.08) !important;  
+    }
+    .pers .container .ag{
+        width: calc(100%/1.08) !important;  
+    }
+    .how .container .work{
+        width: 90%;
+    }
+    .onl .container .block2 .infofit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .onl .container .block2 .infofit label{
+        margin-right: 0px;
+        
+    }
+    .onl .container .block2 .infofit .perecluch .line .text .photo .photos{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
+    .onl .container .block2 .infofit .perecluch .line .text h3{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text .photo{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .about{
+        margin-top: 50px;
+    }
+    .poprob .container .try .text{
+        width: calc(100%/2.2);
+        padding-top: 50px;
+    }
+    .choicing .container .kurs .frst{
+        margin-right: 0;
+    }
+    .choicing .container .kurs .scnd{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .kurs .container .woman{
+        width: 512px;
+        height: 430px;
+    }
+    .header .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header .container .icons a{
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header .container .icons .fa-magnifying-glass{
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .header .container .icons .fa-cart-shopping{
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .header .container .icons .fa-house{
+        height: 15px !important;
+        width: 16px !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container{
+        width:  480px;
+        padding: 10px;
+    }
+    .kurs .container .woman{
+        width: 450px;
+        height: 380px;
+    }
+    .header .container .logo img{
+        width: 84px;
+        height: 15px;
+    }
+    .header .container .raz h1{
+        font-size: 12px;
+    }
+    .header .container .raz h1:nth-child(1){
+        margin-left: 0;
+    }
+    .header .container .raz h1:nth-child(5){
+        margin-right: 0 !important;
+    }
+    .header .container .icons a{
+        height: 20px;
+        width: 20px;
+    }
+    .header .container .icons .fa-magnifying-glass{
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .header .container .icons .fa-cart-shopping{
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .header .container .icons .fa-house{
+        height: 10px !important;
+        width: 10px !important;
+    }
+    .header .container{
+        margin-bottom: 50px;
+    }
+    .kurs .container .fit h1{
+        font-size: 42px;
+        line-height: 40px;
+    }
+    .kurs .container .fit h2{
+        font-size: 16px;
+    }
+    .kurs .container .fit button{
+        width: 230px;
+        height: 50px;
+    }
+    .choicing .container button-kurs{
+        font-size: 32px;
+    }
+   
+    .choicing .container .kurs .one{
+        width: 200px !important;
+        height: 240px !important;
+        margin-right: 10px;
+    }
+    .choicing .container .kurs .one .yo{
+        height: 181px !important;
+        width: 142px;
+        margin-top: 0;
+    }
+    .choicing .container .kurs .one .yo{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .choicing .container .kurs .two{
+        width: 200px !important;
+        height: 240px !important;
+        margin-left: 10px;
+    }
+    .choicing .container .kurs .two .ras{
+        width: 172px !important;
+        height: 171px !important;
+        margin-top: 0;
+    }
+    .choicing .container .kurs .two h2{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .choicing .container .kurs .tree{
+        width: 200px !important;
+        height: 240px !important;
+    }
+    .choicing .container .kurs .tree .hit{
+        width: 152px !important;
+        height: 197px !important;
+        margin-top: 0;
+    }
+    .choicing .container .kurs .tree h2{
+        font-size: 16px;
+    }
+    .choicing .container .btn button{
+        width: 230px;
+        height: 50px;
+    }
+    .choicing{
+        margin-bottom: 100px;
+    }
+    .poprob .container .try .text{
+        padding-top: 25px;
+    }
+    .onl{
+        margin-top: 100px;
+    }
+    .onl .container .block1 .woman{
+        width: 450px;
+    }
+    .onl .container .block1 .tk .onkr{
+        font-size: 14px;
+    }
+    .onl .container .block1 .tk .ras{
+        font-size: 32px;
+    }
+    .onl .container .block1 .tk .classic{
+        font-size: 16px;
+    }
+    .onl .container .block1 .tk .dat .high{
+        width: 220px;
+    }
+    .onl .container .block1 .tk .dat .date{
+        width: 220px;
+    }
+    .onl .container .block1{
+        padding: 0;
+    }
+    .onl .container .block1 .tk .cos h2{
+        font-size: 32px;
+    }
+    .onl .container .block1 .tk .cos button{
+        width: 230px;
+        height: 50px;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text h3{
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text .photo .photos{
+        width: 190px;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text1 .photo .photos .thd{
+        width: 188px;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text3 .photo .photos .thd2{
+        width: 166px;
+        height: 174px;
+        margin-bottom: 17px;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text3 .photo .photos .scnd2{
+        width: 171px;
+        height: 171px;
+        margin-bottom: 17px;
+    }
+
+    .about .container .xtbtn h2{
+        font-size: 32px;
+    }
+    .about .container .xtbtn h3{
+        font-size: 16px;
+    }
+    .about .container .xtbtn button{
+        width: 230px;
+        height: 50px;
+    }
+    .about .container .abouti{
+        width: 450px;
+    }
+    .how .container h2{
+        font-size: 32px;
+    }
+    .how .container .work h2{
+        font-size: 12px !important;
+    }
+    .how .container .work h3{
+        font-size: 16px !important;
+    }
+    .how .container .work h4{
+        font-size: 12px !important;
+    }
+    .pers .container h2{
+        font-size: 32px;
+    }
+    .pers .container h3{
+        font-size: 13px;
+    }
+    .pers .container .nametel {
+        width: calc(100%/1.1);
+    }
+    .pers .container .nametel .name input{
+        width: 190px;
+    }
+    .pers .container .nametel .tel input{
+        width: 190px;
+    }
+    .pers .container .nametel h3{
+        font-size: 12px !important;
+    }
+    .pers .container .em h3{
+        font-size: 12px !important;
+    }
+    .pers .container h3{
+        font-size: 12px !important;
+    }
+    .pers .container .ch label{
+        font-size: 12px !important;
+    }
+    .pers .container .ag label{
+        font-size: 12px !important;
+    }
+    .pers .container button{
+        width: 230px;
+        height: 50px;
+    }
+    .foot .container{
+        padding: 0;
+    }
+    .foot .container .prava h3{
+        font-size: 10px;
+    }
+    .foot .container .pol a{
+        font-size: 10px;
+    }
+    .foot .container .soc{
+        width: calc(100%/6);
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .container{
+        width:  300px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .header .container{
+        padding: 0 !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+    .header .container .logo img{
+        width: 69px;
+        height: 13px;
+    }
+    .header .container .raz h1{
+        font-size: 10px !important;
+    }
+    .header .container .raz{
+        width: calc(100%/2.2);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header .container .raz h1:nth-child(3){
+        margin-right: 0 !important;
+    }
+    .header .container .icons{
+        width: calc(100%/4.7);
+    }
+    .kurs .container .fit h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .kurs .container .fit h2{
+        font-size: 15px;
+    }
+    .kurs .container .fit button{
+        width: 200px;
+        height: 45px;
+    }
+    .kurs .container .woman{
+        width: 292px;
+        height: 240px;
+
+    }
+    .choicing .container{
+        padding: 0;
+    }
+    .choicing .container button-kurs{
+        font-size: 22px;
+    }
+    
+    .choicing .container .kurs .one{
+        width: 130px !important;
+        height: 190px !important;
+    }
+    .choicing .container .kurs .one .yo{
+        height: 150px !important;
+        width: 117px;
+        margin-top: 5px;
+    }
+    .choicing .container .kurs .one h2{
+        margin-top: 5px;
+    }
+    .choicing .container .kurs .two{
+        width: 130px !important;
+        height: 190px !important;
+    }
+    .choicing .container .kurs .two .ras{
+        width: 123px !important;
+        height: 123px !important;
+        margin-top: 10px;
+    }
+    .choicing .container .kurs .two h2{
+        margin-top: 20px;
+    }
+
+    .choicing .container .kurs .tree{
+        width: 130px !important;
+        height: 190px !important;
+    }
+    .choicing .container .kurs .tree .hit{
+        width: 115px !important;
+        height: 155px !important;
+        margin-top: 10px;
+    }
+    .choicing .container .btn button{
+        width: 200px;
+        height: 45px;
+    }
+    .poprob .container .try{
+        background-position-x: -520px;
+    }
+    .poprob .container .try .text{
+        padding-left: 10px;
+    }
+    .poprob .container .try .text h2{
+        font-size: 32px;
+    }
+    .poprob .container .try .text h3{
+        font-size: 16px;
+        margin-bottom: 40px;
+        text-align: start !important;
+    }
+    .poprob .container .try .text button{
+        width: 240px;
+    }
+    .onl .container .block1 .woman{
+        width: 280px;
+    }
+    .onl .container .block1 .tk .onkr{
+        font-size: 12px !important;
+        text-align: start !important;
+    }
+    .onl .container .block1 .tk .ras{
+        font-size: 22px !important;
+        
+    }
+    .onl .container .block1 .tk .classic{
+        font-size: 14px;
+        text-align: start !important;
+    }
+    .onl .container .block1 .tk .dat .high{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 140px;
+    }
+    .onl .container .block1 .tk .dat .high h3{
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 12px !important;
+    }
+    .onl .container .block1 .tk .dat .date{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 140px;
+    }
+    .onl .container .block1 .tk .dat .date h3{
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 12px !important;
+    }
+    .onl .container .block1 .tk .cos h2{
+        font-size: 22px;
+    }
+    .onl .container .block1 .tk .cos button{
+        width: 140px;
+        padding: 0;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text h3{
+        font-size: 14px;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text .photo .photos{
+        width: 161px;
+        height: 220px;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text .photo .photos .thd{
+        background-position-x: 20px !important;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text .photo .photos .frst2{
+        width: 163px;
+    }
+    .onl .container .block2 .infofit .perecluch .line .text .photo .photos .scnd2{
+        width: 131px
+    }
+    .onl .container .block2 .infofit .perecluch .line .text .photo .photos .thd2{
+        width: 131px
+    }
+    .onl .container .block2 .infofit .perecluch .line .text .photo .photos .scnd1{
+        width: 131px
+    }
+    .onl .container .block2 .infofit label{
+        font-size: 14px;
+    }
+    .about{
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
+    .about .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about .container .xtbtn h2{
+        font-size: 22px;
+    }
+    .about .container .xtbtn h3{
+        font-size: 14px;
+    }
+    .about .container .xtbtn button{
+        width: 200px;
+        margin-top: 50px;
+    }
+    .about .container .abouti{
+        display: flex;
+        justify-content: center;
+        width: 280px;
+    }
+    .about .container .abouti .bout{
+        width: 280px;
+        background-position-x: -60px;
+    }
+    .how .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .how .container h2{
+        font-size: 22px;
+    }
+    .how .container .work{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .how .container .work h2,h3,h4{
+        text-align: center !important;
+    }
+    .how .container .work h2{
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .pers .container{
+        padding-top: 50px;
+    }
+    .pers .container h2{
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .pers .container h3{
+        font-size: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .pers .container .nametel{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        
+    }
+    .pers .container .nametel .name{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .pers .container .nametel .name input{
+        width: 100%;
+    }
+    .pers .container .nametel .tel{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .pers .container .nametel .tel input{
+        width: 100%;
+    }
+    .pers .container .em{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .pers .container .em input{
+        width: 100%;
+    }
+    .pers .container h3{
+        display: flex;
+        justify-content: start;
+    }
+    .pers .container .ch{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .pers .container button{
+        width: 200px !important;
+    }
+    .foot .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot .container .soc{
+        width: calc(100%/4);
+    } 
+}
+
+
